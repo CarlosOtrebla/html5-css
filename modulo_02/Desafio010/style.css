@@ -4,7 +4,6 @@
     font-family: 'android';
     src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
-
 }
 
 :root {
@@ -24,8 +23,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 
 body {
     background-color: var(--cor0);
@@ -52,10 +49,8 @@ a.externo::after {
     left: 0;    
     position: absolute;
     top: 0;
-    width: 100%;
-    
+    width: 100%;    
 }
-
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -70,8 +65,7 @@ header > h1 {
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);    
 }
 
 header > p {
@@ -80,9 +74,9 @@ header > p {
     font-size: 1.2em;
     margin: auto;
     max-width: 600;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);    
 }
 
@@ -102,8 +96,7 @@ nav > a {
 }
 nav > a:hover {
     background-color: var(--cor3);
-    color: var(--cor5);
-    
+    co14lor: var(--cor5);    
 }
 
 main {
@@ -114,8 +107,7 @@ main {
     margin: auto;
     max-width: 1000px;
     min-width: 300px;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 main h1 {
@@ -140,12 +132,12 @@ main p {
     line-height: 1.7em;
     margin: 15px 0px;
     text-align: justify;
-    text-indent: 30px;
-    
+    text-indent: 30px;    
 }
+
 main img {
-    width: 100%;
     margin-top: 20px;
+    width: 100%;
 }
 
 main img.pequena {
