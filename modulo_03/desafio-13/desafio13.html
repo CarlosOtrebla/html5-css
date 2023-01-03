@@ -9,15 +9,25 @@
     <style>
         table {
             width: 400px;
-            border-collapse: collapse;
+            /* border-collapse: collapse; */
+            margin-bottom: 30px;
         }
         td {
             border: 1px solid black;
+            height: 20px;
+            text-align: center;
+        }
+     
+        #t1 {
+           background-color: rgb(183, 243, 222);
+        }
+        #t2 {
+            background-color: rgba(144, 144, 248, 0.404);
         }
     </style>
 <body>
 
-    <table>
+    <table id="t1">
         <tr>
             <td>1</td>
             <td>2</td>
@@ -47,6 +57,32 @@
             <td>14</td>
             <td>15</td>
             
+        </tr>
+    </table>
+
+    <table id="t2">
+        <tr>
+            <td colspan="4">A</td>          
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>            
+        </tr>
+        <tr>            
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>           
+        </tr>
+        <tr>           
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>           
+        </tr>
+        <tr>
+            <td colspan="4">M</td>       
         </tr>
     </table>
     
