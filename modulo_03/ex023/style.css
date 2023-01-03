@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+thead > tr > th {
+        position: sticky;
+        top: 0;
+        background-color: gray;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+td.num {
+    text-align: right;
+}
+                     /*2n */
+tbody > tr:nth-child(even) { 
+    background-color: lightgrey;
+}
+                  /* 2n-1 */
+tbody > tr:nth-child(odd) { 
+    background-color: white;
+}
+
