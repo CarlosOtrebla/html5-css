@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="idCor">Cor</label>
+            <input type="color" name="cor" id="idCor">
+        </p>
+        <p>
+            <label for="idNivel">Nivel de Satisfação</label>
+            <input type="range" name="nivel" id="idNivel" min="0" max="100" value="50">
+            <output id="rangeOutput"></output>
+            <script>
+                let input = document.getElementById('idNivel');
+                let output = document.getElementById('rangeOutput');
+
+                output.innerHTML = input.value;
+                input.addEventListener('input', function(){
+                    output.innerHTML = this.value;
+                });
+            </script>
+
+            <p>
+                <label for="idFoto">Foto do perfil</label>
+                <input type="file" name="foto" id="idFoto">
+            </p>
+            
+            
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
