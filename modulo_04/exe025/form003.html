@@ -5,16 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 20px;            
+        }
+
+        p{
+            margin: 10px;
+        }
+       
+
+
+    </style>
 </head>
 <body>
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="post">
         <p>
-            <label for="idNome">Nome: </label>
+            <label  style="width: 20px;" for="idNome">Nome: </label>
             <input type="text" name="nome" id="idNome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
         </p>
-        <label for="idMedia">Média: </Label>
-        <input type="number" name="media" id="idMedia" min="0" max="10" placeholder="0 à 10" step="0.1" required>
+
+        <p>
+            <label for="idMedia">Média: </Label>
+            <input type="number" name="media" id="idMedia" min="0" max="10" placeholder="0 à 10" step="0.1" required>
+        </p>
 
         <p>
             <label for="idMes">Período Letivo: </label>
