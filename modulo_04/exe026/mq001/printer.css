@@ -1,0 +1,21 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+menu {
+    display: none;
+    
+}article::after {
+    content: 'Esse arquivo foi inpresso atravéz do site www.carlosotrebla.com';
+}
