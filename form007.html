@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Formulário</title>    
 </head>
 <body>
-
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
         <p>
-            <label for="id-estado">Estado</label>
+            <label for="id-estado">Estado:</label>
             <select name="estado" id="id-estado">
                 <optgroup label="Sudeste">
                     <option value="Mg">Minas Gerais</option>
@@ -37,9 +36,11 @@
             </datalist>
         </p>
 
-        <p><label for="imsg">Menssagem:</label><br>
+        <p>
+            <label for="imsg">Menssagem:</label><br>
             <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua menssagem..." ></textarea>
         </p>
+        
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
