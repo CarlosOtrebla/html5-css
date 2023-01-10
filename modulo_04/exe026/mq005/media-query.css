@@ -10,7 +10,7 @@ Grandes telas acimade 1200px
  */
 
 @media screen and (min-width:768px){
-    span#burguer {
+    #idBurguer {
         display: none;
     }
     menu {
@@ -18,7 +18,7 @@ Grandes telas acimade 1200px
     }
     menu > ul > li {
         display: inline-block;
-        display: block;
+       
     }
 
     main {
