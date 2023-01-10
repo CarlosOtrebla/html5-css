@@ -59,7 +59,7 @@ menu > ul > li > a:hover{
 }
 
 main {
-    width: 90vw;
+    /* width: 90vw; */
     background-color: beige;
     margin: auto;
     margin-top: 10px;
